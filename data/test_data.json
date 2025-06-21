@@ -1,0 +1,113 @@
+{
+  "customers": [
+    {
+      "name": "John",
+      "surname": "Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "name": "Jane",
+      "surname": "Smith",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "name": "Bob",
+      "surname": "Johnson",
+      "email": "bob.johnson@example.com"
+    },
+    {
+      "name": "Alice",
+      "surname": "Brown",
+      "email": "alice.brown@example.com"
+    },
+    {
+      "name": "Charlie",
+      "surname": "Davis",
+      "email": "charlie.davis@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Electronics",
+      "description": "Electronic devices and gadgets including smartphones, laptops, and accessories"
+    },
+    {
+      "title": "Books",
+      "description": "Books and literature covering various genres and topics"
+    },
+    {
+      "title": "Clothing",
+      "description": "Apparel and accessories for men, women, and children"
+    },
+    {
+      "title": "Home & Garden",
+      "description": "Home improvement and gardening items for indoor and outdoor use"
+    },
+    {
+      "title": "Sports",
+      "description": "Sports equipment and outdoor activities gear"
+    }
+  ],
+  "shop_items": [
+    {
+      "title": "iPhone 15 Pro",
+      "description": "Latest Apple smartphone with advanced camera system and A17 Pro chip",
+      "price": 999.99,
+      "category_ids": [1]
+    },
+    {
+      "title": "MacBook Pro 14\"",
+      "description": "High-performance laptop with M3 Pro chip, perfect for professional work",
+      "price": 1999.99,
+      "category_ids": [1]
+    },
+    {
+      "title": "Python Programming Book",
+      "description": "Learn Python programming from basics to advanced concepts",
+      "price": 39.99,
+      "category_ids": [2]
+    },
+    {
+      "title": "Classic T-Shirt",
+      "description": "Comfortable 100% cotton t-shirt available in multiple colors",
+      "price": 24.99,
+      "category_ids": [3]
+    },
+    {
+      "title": "Garden Tools Set",
+      "description": "Complete set of essential garden tools including spade, rake, and pruners",
+      "price": 89.99,
+      "category_ids": [4]
+    },
+    {
+      "title": "Wireless Headphones",
+      "description": "Premium noise-cancelling wireless headphones with 30-hour battery life",
+      "price": 299.99,
+      "category_ids": [1]
+    },
+    {
+      "title": "Running Shoes",
+      "description": "Lightweight running shoes with advanced cushioning technology",
+      "price": 129.99,
+      "category_ids": [5, 3]
+    },
+    {
+      "title": "Cookbook Collection",
+      "description": "Collection of international recipes from renowned chefs",
+      "price": 49.99,
+      "category_ids": [2]
+    },
+    {
+      "title": "Smart Watch",
+      "description": "Fitness tracking smart watch with heart rate monitor and GPS",
+      "price": 399.99,
+      "category_ids": [1, 5]
+    },
+    {
+      "title": "Yoga Mat",
+      "description": "Non-slip yoga mat made from eco-friendly materials",
+      "price": 45.99,
+      "category_ids": [5]
+    }
+  ]
+}
